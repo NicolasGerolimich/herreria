@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase de Git</title>
+</head>
+<body>
+    <!-- 
+        1 workng directory
+        2 staging area
+        3 repository
+
+        VER VERSION
+        $ git --version
+        git version 2.38.0.windows.1
+
+        PONER NOMBRE DE USUARIO
+        $ git config --global user.name "Nico" 
+
+        PARA VER ELNOMBRE DE USUARIO
+        $ git config --global user.name
+
+        FLECHA PARA ARRIBA PUEDO IR VIENDO COMANDOS ANTERIORES
+
+        CONFIGURAR MAIL
+        $ git config --global user.mail nico.gerolimich@gmail.com (sin comillas)
+        o
+        $ git config --global user.email nico.gerolimich@gmail.com
+
+        VERIFICAR MAIL
+        lo mismo, sin poner ningun mail
+
+        LISTADO DE COMANDOS
+        $ git config --list
+        cuando aparecen los ":" es que hay más datos para visualizarse, se visualiza con enter. apretando "Q" o ctrl+c salimos.
+        
+        INICIAR
+        $ git init
+        con el git init ya estamos en el 1 working directory
+
+        VISUALIZAR EL ESTADO DE LOS ARCHIVOS
+        $ git status
+
+        para pasar del working al staging area hay que ir seleccionando los archivos que queramos pasar.
+
+        ENVIAR ARCHIVOS AL STAGING AREA
+        $ git add nombre del archivo
+
+        PARA ENVIAR LOS ARCHIVOS A LA CREACION DE LA VERSION
+        $ git commit -m "mensaje"
+        el mensaje debe referirise a las modificaciones que vamos a estar haciendo. por ej "creo mi repositorio"
+
+        VERIFICAR VERSIONES
+        $ git log
+        $ git log --oneline (para ver el commit reducido)
+
+        una vez que guardé una versión, con el git status voy a ver la version y la rama maestra, etc. si aplico alguna modficacion y aplico git status ya no voy a estar sobre la rama maestra, sino de nuevo sobre el working directory. para generar una version nueva hay que pasar de nuevo por los tres estados.
+        
+     -->
+
+     <h1>Clase de GIT - El sistema controlador de versiones</h1>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptates perspiciatis eveniet ab nulla? Rem perferendis iure dolorem enim voluptatem. Animi corrupti sed voluptatibus pariatur minus quis perferendis, nisi illo?</p>
+</body>
+</html>
